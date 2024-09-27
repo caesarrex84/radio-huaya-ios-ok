@@ -1,0 +1,6 @@
+framework module Pods_Radio_Huaya_Radio_HuayaUITests {
+  umbrella header "Pods-Radio Huaya-Radio HuayaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

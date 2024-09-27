@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4A94802B844745ED05A4F9 /* Pods_Radio_Huaya_Radio_HuayaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AFECE783FB118B1F9EE87 /* Pods_Radio_Huaya_Radio_HuayaUITests.framework */; };
+		4A51F60E2C2017A700066053 /* Radio_HuayaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51F60D2C2017A700066053 /* Radio_HuayaApp.swift */; };
+		4A51F6102C2017A700066053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51F60F2C2017A700066053 /* ContentView.swift */; };
+		4A51F6122C2017A800066053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A51F6112C2017A800066053 /* Assets.xcassets */; };
+		4A51F6152C2017A900066053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A51F6142C2017A900066053 /* Preview Assets.xcassets */; };
+		4A51F61F2C2017A900066053 /* Radio_HuayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51F61E2C2017A900066053 /* Radio_HuayaTests.swift */; };
+		4A51F6292C2017A900066053 /* Radio_HuayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51F6282C2017A900066053 /* Radio_HuayaUITests.swift */; };
+		4A51F62B2C2017A900066053 /* Radio_HuayaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51F62A2C2017A900066053 /* Radio_HuayaUITestsLaunchTests.swift */; };
+		4AE3720B2C267D400039341B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE3720A2C267D400039341B /* AVFoundation.framework */; };
+		4AE3720D2C267D7A0039341B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE3720C2C267D7A0039341B /* AVKit.framework */; };
+		4AE3720F2C267D830039341B /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE3720E2C267D830039341B /* AVFAudio.framework */; };
+		4AE372112C267ECF0039341B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE372102C267ECF0039341B /* Launch Screen.storyboard */; };
+		8CEE8FE434BF3905344A9279 /* Pods_Radio_Huaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE789F5E847D9FE7234AF2 /* Pods_Radio_Huaya.framework */; };
+		90CEDEE2F81235B369F0F138 /* Pods_Radio_HuayaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D76B96F1B2E92B8EF89B189 /* Pods_Radio_HuayaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A51F61B2C2017A900066053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A51F6022C2017A700066053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A51F6092C2017A700066053;
+			remoteInfo = "Radio Huaya";
+		};
+		4A51F6252C2017A900066053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A51F6022C2017A700066053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A51F6092C2017A700066053;
+			remoteInfo = "Radio Huaya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00179F44E7518C0BAA1E9366 /* Pods-Radio HuayaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio HuayaTests.release.xcconfig"; path = "Target Support Files/Pods-Radio HuayaTests/Pods-Radio HuayaTests.release.xcconfig"; sourceTree = "<group>"; };
+		284ED747D411FF9BCDE98406 /* Pods-Radio Huaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio Huaya.debug.xcconfig"; path = "Target Support Files/Pods-Radio Huaya/Pods-Radio Huaya.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4B0CC2B2D608874392042C /* Pods-Radio Huaya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio Huaya.release.xcconfig"; path = "Target Support Files/Pods-Radio Huaya/Pods-Radio Huaya.release.xcconfig"; sourceTree = "<group>"; };
+		3D76B96F1B2E92B8EF89B189 /* Pods_Radio_HuayaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_HuayaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43FE789F5E847D9FE7234AF2 /* Pods_Radio_Huaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_Huaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A51F60A2C2017A700066053 /* Radio Huaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Huaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A51F60D2C2017A700066053 /* Radio_HuayaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_HuayaApp.swift; sourceTree = "<group>"; };
+		4A51F60F2C2017A700066053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A51F6112C2017A800066053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A51F6142C2017A900066053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A51F61A2C2017A900066053 /* Radio HuayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio HuayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A51F61E2C2017A900066053 /* Radio_HuayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_HuayaTests.swift; sourceTree = "<group>"; };
+		4A51F6242C2017A900066053 /* Radio HuayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio HuayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A51F6282C2017A900066053 /* Radio_HuayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_HuayaUITests.swift; sourceTree = "<group>"; };
+		4A51F62A2C2017A900066053 /* Radio_HuayaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_HuayaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A8495FC2C2658B100979376 /* Radio-Huaya-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Radio-Huaya-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4AE3720A2C267D400039341B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4AE3720C2C267D7A0039341B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		4AE3720E2C267D830039341B /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		4AE372102C267ECF0039341B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		523AFECE783FB118B1F9EE87 /* Pods_Radio_Huaya_Radio_HuayaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_Huaya_Radio_HuayaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE35A349066B00C88491813 /* Pods-Radio HuayaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio HuayaTests.debug.xcconfig"; path = "Target Support Files/Pods-Radio HuayaTests/Pods-Radio HuayaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6346FAFF917520CD6381A0DE /* Pods-Radio Huaya-Radio HuayaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio Huaya-Radio HuayaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Radio Huaya-Radio HuayaUITests/Pods-Radio Huaya-Radio HuayaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B15FD9FFB87448ACF90334D5 /* Pods-Radio Huaya-Radio HuayaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio Huaya-Radio HuayaUITests.release.xcconfig"; path = "Target Support Files/Pods-Radio Huaya-Radio HuayaUITests/Pods-Radio Huaya-Radio HuayaUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A51F6072C2017A700066053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE3720D2C267D7A0039341B /* AVKit.framework in Frameworks */,
+				4AE3720B2C267D400039341B /* AVFoundation.framework in Frameworks */,
+				4AE3720F2C267D830039341B /* AVFAudio.framework in Frameworks */,
+				8CEE8FE434BF3905344A9279 /* Pods_Radio_Huaya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51F6172C2017A900066053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CEDEE2F81235B369F0F138 /* Pods_Radio_HuayaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51F6212C2017A900066053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4A94802B844745ED05A4F9 /* Pods_Radio_Huaya_Radio_HuayaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A51F6012C2017A700066053 = {
+			isa = PBXGroup;
+			children = (
+				4A51F60C2C2017A700066053 /* Radio Huaya */,
+				4A51F61D2C2017A900066053 /* Radio HuayaTests */,
+				4A51F6272C2017A900066053 /* Radio HuayaUITests */,
+				4A51F60B2C2017A700066053 /* Products */,
+				DEE5D9F495166C57B2BBD6C3 /* Pods */,
+				F151A91C60E637F188803A79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A51F60B2C2017A700066053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A51F60A2C2017A700066053 /* Radio Huaya.app */,
+				4A51F61A2C2017A900066053 /* Radio HuayaTests.xctest */,
+				4A51F6242C2017A900066053 /* Radio HuayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A51F60C2C2017A700066053 /* Radio Huaya */ = {
+			isa = PBXGroup;
+			children = (
+				4A8495FC2C2658B100979376 /* Radio-Huaya-Info.plist */,
+				4A51F60D2C2017A700066053 /* Radio_HuayaApp.swift */,
+				4A51F60F2C2017A700066053 /* ContentView.swift */,
+				4A51F6112C2017A800066053 /* Assets.xcassets */,
+				4A51F6132C2017A900066053 /* Preview Content */,
+				4AE372102C267ECF0039341B /* Launch Screen.storyboard */,
+			);
+			path = "Radio Huaya";
+			sourceTree = "<group>";
+		};
+		4A51F6132C2017A900066053 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A51F6142C2017A900066053 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A51F61D2C2017A900066053 /* Radio HuayaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A51F61E2C2017A900066053 /* Radio_HuayaTests.swift */,
+			);
+			path = "Radio HuayaTests";
+			sourceTree = "<group>";
+		};
+		4A51F6272C2017A900066053 /* Radio HuayaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A51F6282C2017A900066053 /* Radio_HuayaUITests.swift */,
+				4A51F62A2C2017A900066053 /* Radio_HuayaUITestsLaunchTests.swift */,
+			);
+			path = "Radio HuayaUITests";
+			sourceTree = "<group>";
+		};
+		DEE5D9F495166C57B2BBD6C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284ED747D411FF9BCDE98406 /* Pods-Radio Huaya.debug.xcconfig */,
+				3D4B0CC2B2D608874392042C /* Pods-Radio Huaya.release.xcconfig */,
+				6346FAFF917520CD6381A0DE /* Pods-Radio Huaya-Radio HuayaUITests.debug.xcconfig */,
+				B15FD9FFB87448ACF90334D5 /* Pods-Radio Huaya-Radio HuayaUITests.release.xcconfig */,
+				5EE35A349066B00C88491813 /* Pods-Radio HuayaTests.debug.xcconfig */,
+				00179F44E7518C0BAA1E9366 /* Pods-Radio HuayaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F151A91C60E637F188803A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AE3720E2C267D830039341B /* AVFAudio.framework */,
+				4AE3720C2C267D7A0039341B /* AVKit.framework */,
+				4AE3720A2C267D400039341B /* AVFoundation.framework */,
+				43FE789F5E847D9FE7234AF2 /* Pods_Radio_Huaya.framework */,
+				523AFECE783FB118B1F9EE87 /* Pods_Radio_Huaya_Radio_HuayaUITests.framework */,
+				3D76B96F1B2E92B8EF89B189 /* Pods_Radio_HuayaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A51F6092C2017A700066053 /* Radio Huaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A51F62E2C2017A900066053 /* Build configuration list for PBXNativeTarget "Radio Huaya" */;
+			buildPhases = (
+				00827252029B4D87F2D99FB0 /* [CP] Check Pods Manifest.lock */,
+				4A51F6062C2017A700066053 /* Sources */,
+				4A51F6072C2017A700066053 /* Frameworks */,
+				4A51F6082C2017A700066053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radio Huaya";
+			productName = "Radio Huaya";
+			productReference = 4A51F60A2C2017A700066053 /* Radio Huaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A51F6192C2017A900066053 /* Radio HuayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A51F6312C2017A900066053 /* Build configuration list for PBXNativeTarget "Radio HuayaTests" */;
+			buildPhases = (
+				357D5C1743B36B5ED8F07D42 /* [CP] Check Pods Manifest.lock */,
+				4A51F6162C2017A900066053 /* Sources */,
+				4A51F6172C2017A900066053 /* Frameworks */,
+				4A51F6182C2017A900066053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A51F61C2C2017A900066053 /* PBXTargetDependency */,
+			);
+			name = "Radio HuayaTests";
+			productName = "Radio HuayaTests";
+			productReference = 4A51F61A2C2017A900066053 /* Radio HuayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A51F6232C2017A900066053 /* Radio HuayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A51F6342C2017A900066053 /* Build configuration list for PBXNativeTarget "Radio HuayaUITests" */;
+			buildPhases = (
+				2BDA729B41C2D772AAA12572 /* [CP] Check Pods Manifest.lock */,
+				4A51F6202C2017A900066053 /* Sources */,
+				4A51F6212C2017A900066053 /* Frameworks */,
+				4A51F6222C2017A900066053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A51F6262C2017A900066053 /* PBXTargetDependency */,
+			);
+			name = "Radio HuayaUITests";
+			productName = "Radio HuayaUITests";
+			productReference = 4A51F6242C2017A900066053 /* Radio HuayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A51F6022C2017A700066053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4A51F6092C2017A700066053 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4A51F6192C2017A900066053 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4A51F6092C2017A700066053;
+					};
+					4A51F6232C2017A900066053 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4A51F6092C2017A700066053;
+					};
+				};
+			};
+			buildConfigurationList = 4A51F6052C2017A700066053 /* Build configuration list for PBXProject "Radio Huaya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A51F6012C2017A700066053;
+			productRefGroup = 4A51F60B2C2017A700066053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A51F6092C2017A700066053 /* Radio Huaya */,
+				4A51F6192C2017A900066053 /* Radio HuayaTests */,
+				4A51F6232C2017A900066053 /* Radio HuayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A51F6082C2017A700066053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE372112C267ECF0039341B /* Launch Screen.storyboard in Resources */,
+				4A51F6152C2017A900066053 /* Preview Assets.xcassets in Resources */,
+				4A51F6122C2017A800066053 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51F6182C2017A900066053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51F6222C2017A900066053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00827252029B4D87F2D99FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio Huaya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDA729B41C2D772AAA12572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio Huaya-Radio HuayaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		357D5C1743B36B5ED8F07D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio HuayaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A51F6062C2017A700066053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A51F6102C2017A700066053 /* ContentView.swift in Sources */,
+				4A51F60E2C2017A700066053 /* Radio_HuayaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51F6162C2017A900066053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A51F61F2C2017A900066053 /* Radio_HuayaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51F6202C2017A900066053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A51F6292C2017A900066053 /* Radio_HuayaUITests.swift in Sources */,
+				4A51F62B2C2017A900066053 /* Radio_HuayaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A51F61C2C2017A900066053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A51F6092C2017A700066053 /* Radio Huaya */;
+			targetProxy = 4A51F61B2C2017A900066053 /* PBXContainerItemProxy */;
+		};
+		4A51F6262C2017A900066053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A51F6092C2017A700066053 /* Radio Huaya */;
+			targetProxy = 4A51F6252C2017A900066053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A51F62C2C2017A900066053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A51F62D2C2017A900066053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A51F62F2C2017A900066053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284ED747D411FF9BCDE98406 /* Pods-Radio Huaya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Radio Huaya/Preview Content\"";
+				DEVELOPMENT_TEAM = G68UK8WWU8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Radio-Huaya-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauruzai.radiohuaya.Radio-Huaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A51F6302C2017A900066053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4B0CC2B2D608874392042C /* Pods-Radio Huaya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Radio Huaya/Preview Content\"";
+				DEVELOPMENT_TEAM = G68UK8WWU8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Radio-Huaya-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauruzai.radiohuaya.Radio-Huaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A51F6322C2017A900066053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE35A349066B00C88491813 /* Pods-Radio HuayaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauruzai.radiohuaya.Radio-HuayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio Huaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Radio Huaya";
+			};
+			name = Debug;
+		};
+		4A51F6332C2017A900066053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00179F44E7518C0BAA1E9366 /* Pods-Radio HuayaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauruzai.radiohuaya.Radio-HuayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio Huaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Radio Huaya";
+			};
+			name = Release;
+		};
+		4A51F6352C2017A900066053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6346FAFF917520CD6381A0DE /* Pods-Radio Huaya-Radio HuayaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauruzai.radiohuaya.Radio-HuayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Radio Huaya";
+			};
+			name = Debug;
+		};
+		4A51F6362C2017A900066053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15FD9FFB87448ACF90334D5 /* Pods-Radio Huaya-Radio HuayaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tauruzai.radiohuaya.Radio-HuayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Radio Huaya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A51F6052C2017A700066053 /* Build configuration list for PBXProject "Radio Huaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A51F62C2C2017A900066053 /* Debug */,
+				4A51F62D2C2017A900066053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A51F62E2C2017A900066053 /* Build configuration list for PBXNativeTarget "Radio Huaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A51F62F2C2017A900066053 /* Debug */,
+				4A51F6302C2017A900066053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A51F6312C2017A900066053 /* Build configuration list for PBXNativeTarget "Radio HuayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A51F6322C2017A900066053 /* Debug */,
+				4A51F6332C2017A900066053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A51F6342C2017A900066053 /* Build configuration list for PBXNativeTarget "Radio HuayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A51F6352C2017A900066053 /* Debug */,
+				4A51F6362C2017A900066053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A51F6022C2017A700066053 /* Project object */;
+}
